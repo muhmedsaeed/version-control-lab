@@ -1,0 +1,379 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Start Navbar Section */
+nav .nav-link {
+    font-weight: 500;
+    margin-right: 15px;
+    transition: 0.3s, transform 0.1s;
+}
+
+nav .nav-link:hover {
+    color: #227dcd;
+    font-size: 18px;
+    border-bottom: rgb(203, 118, 22) 2px solid;
+}
+
+/* End Navbar Section */
+
+/* Strat Home */
+
+.home {
+    width: 100%;
+    height: calc(100vh - 79px);
+    background-image: url("../images/im3.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    h2 {
+        width: 50%;
+        margin-top: 10px;
+        color: #f96145;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+    }
+
+    p {
+        color: #666;
+        text-align: center;
+        text-transform: capitalize;
+        width: 50%;
+    }
+}
+/* End Home */
+
+
+/* Start Blog Section */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.first {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 5%;
+    background: #f8f9fa;
+}
+
+.blog-post {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.blog-post p {
+    color: #555;
+}
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ff320d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog-post a:hover {
+    background: #c1270a;
+}
+
+/* End Blog Section */
+
+
+
+
+
+
+/* Start Pricing Section */
+.start {
+    background-color: #636262;
+    height: 175px;
+    margin-top: 45px;
+    align-content: center;
+
+    h2 {
+        color: #f96145;
+        width: 60%;
+        margin: auto;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    p {
+        color: aliceblue;
+        width: 60%;
+        margin: auto;
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.card {
+    border: 4px solid #636262;
+    border-radius: 3px;
+
+    .card-body {
+        border: 10px solid #f0684f;
+
+        button {
+            background-color: #636262;
+            border: #f96145;
+        }
+
+        button:hover {
+            background-color: #f96145;
+        }
+    }
+}
+
+/* End Pricing Section */
+
+
+
+
+
+
+/* Start About Section */
+.about-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    margin-top: 45px;
+
+}
+
+.about-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.team {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.team h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #f96145;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+
+.member {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s, transform 0.1s;
+}
+
+.member:hover {
+    transform: scale(1.15);
+}
+
+.member img {
+    border-radius: 25%;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ff320d;
+}
+
+.member p {
+    font-size: 0.9rem;
+    color: #666;
+}
+/* End About Section */
+
+
+
+
+/* Start Contact Section */
+.start {
+    width: 100%;
+    margin: auto;
+    margin-top: 45px;
+    background-color: #a29f9f;
+    height: 180px;
+    align-content: center;
+}
+
+.start h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #dc543c;
+}
+
+.start p {
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+
+
+.map {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 5px dashed #ddd;
+    margin-bottom: 80px;
+
+}
+
+.map:hover {
+    height: 300px;
+
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.btn-custom {
+    background-color: #848181;
+    border-color: #848181;
+    color: rgb(237, 235, 235);
+}
+
+.btn-custom:hover {
+    background-color: #6f6d6d;
+    border-color: #6f6d6d;
+    color: white;
+}
+
+.info {
+    text-decoration: none;
+    font-size: 23px;
+    color: #dc543c;
+    transition: 0.3s;
+
+}
+
+.info:hover {
+    font-size: 25px;
+}
+/* End Contact Section */
+
+
+
+
+/* Start Footer Section */
+footer {
+    position: relative;
+
+    ul {
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 10px 0;
+
+            a {
+                color: white;
+                text-decoration: none;
+                text-transform: capitalize;
+                transition: 0.3s, transform 0.1s;
+                font-size: 15px;
+            }
+
+            a:hover {
+                color: #a4a0a0;
+                font-size: 20px;
+            }
+        }
+    }
+
+    p {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        color: #e8e8e8;
+    }
+}
+/* End Footer Section */
+
+
+
+
+
+/* Media */
+@media (max-width: 768px) {
+    .home {
+        width: 100%;
+        height: calc(100vh - 300px);
+        background: none;
+        h2,
+        p {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+    }
+
+    .sm-contact {
+        display: none;
+    }
+
+    footer ul {
+        width: 90%;
+        padding: 20px;
+    }
+}
